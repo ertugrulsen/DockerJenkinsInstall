@@ -18,6 +18,8 @@ docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenk
 this will run Jenkins in detached mode with port forwarding and volume added. You can access logs with command 'docker logs CONTAINER_ID' in order to check first login token. ID of container will be returned from output of command above.
 
 **docker pull Jenkins**
+
 **docker run --name jenkins -d -v /Users/jenkins:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins:latest**
+
 **docker ps -a**
 
